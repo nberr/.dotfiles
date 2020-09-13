@@ -3,3 +3,4 @@
 	email = nberriochoa@gmail.com
 [core]
 	editor = vim
+	excludesfile = /Users/nberr/.gitignore_global
