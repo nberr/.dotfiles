@@ -1,0 +1,78 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-latex/versions/0.8.11/tarball",
+  "_id": "atom-latex@0.8.11",
+  "_inBundle": false,
+  "_integrity": "sha512-OBa+okJ31c35pfyegWxCKEr6bkE1x5bFQC0Zn4ffIgw/YX74Lgb8gruG9H1p02LSo/HSspMfhlCnFD4Fzyh66g==",
+  "_location": "/atom-latex",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-latex/versions/0.8.11/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-latex/versions/0.8.11/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-latex/versions/0.8.11/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-latex/versions/0.8.11/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-latex/versions/0.8.11/tarball",
+  "_shasum": "36779fbed1acfba2365646d3dd17ea30728daa9f",
+  "_spec": "https://www.atom.io/api/packages/atom-latex/versions/0.8.11/tarball",
+  "_where": "/private/var/folders/yk/x_sx3v610_g8_rxmk_68hkr40000gn/T/apm-install-dir-119919-5113-tj4zt9.8zz4",
+  "bugs": {
+    "url": "https://github.com/ashthespy/Atom-LaTeX/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    },
+    "minimap": {
+      "versions": {
+        "^1.0.0": "consumeMinimap"
+      }
+    }
+  },
+  "dependencies": {
+    "chokidar": "^3.2.1",
+    "etch": "^0.14.0",
+    "fs-plus": "^3.1.1",
+    "glob": "^7.1.4",
+    "hasbin": "^1.2.3",
+    "latex-symbols-list": "^0.1.2",
+    "pdfjs-dist": "2.1.266",
+    "tmp": "^0.1.0",
+    "ws": "^7.1.1"
+  },
+  "deprecated": false,
+  "description": "The only LaTeX package you need for typesetting with Atom.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/ashthespy/Atom-LaTeX#readme",
+  "keywords": [
+    "latex",
+    "compile",
+    "preview",
+    "synctex",
+    "highlight"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "atom-latex",
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "4.0.0": "provide"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashthespy/Atom-LaTeX.git"
+  },
+  "version": "0.8.11"
+}
