@@ -19,6 +19,11 @@ set softtabstop=3       "     number of spaces that a tab *pressed by the user* 
 set shiftwidth=3	" sw, number of spaces shifted left and right when issuing << and >>
 			"  commands
 set expandtab           " don't output tabs; replace with spaces.
+
+if has("autocmd")
+    autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=0  "use normal tabs for makefiles
+endif
+
 set autoindent          " follow current indentation
 set smartindent         " obey brace-indentation rules
 set wrap                " whether to wrap lines
